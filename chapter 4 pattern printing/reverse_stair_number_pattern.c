@@ -1,0 +1,18 @@
+// reverse stair number pattern
+
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("enter your number: ");
+    scanf("%d",&n);
+    
+    for(int j=n;j<=n;j--){
+        for(int i=1;i<=j;i++){
+            printf("%d",i);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
